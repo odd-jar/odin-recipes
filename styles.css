@@ -1,5 +1,8 @@
 body {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
     padding: 350px;
 }
 
@@ -12,11 +15,15 @@ h1 {
 }
 
 li {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
     font-size: 20px;
-    list-style-position: inside;
+    /*list-style-position: inside;*/
     background: rgb(240, 93, 2);
 
 }
